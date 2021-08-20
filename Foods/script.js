@@ -5,7 +5,7 @@ setInterval(() => {
 	i++;
 	const icon = document.querySelector('.section-1-icons .change');
 	icon.classList.remove('change');
-
+    //debugger;
 	if (i > icons.length) {
 		icons[0].classList.add('change');
 		i = 1;
